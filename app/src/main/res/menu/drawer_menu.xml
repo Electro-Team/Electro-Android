@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/languages">
+            <menu>
+                <item
+                    android:id="@+id/englishLanguage"
+                    android:title="@string/english" />
+                <item
+                    android:id="@+id/persianLanguage"
+                    android:title="@string/persian" />
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single"
+        >
+        <item android:title="@string/appInMenu">
+        <menu>
+        <item
+            android:id="@+id/releaseNote"
+            android:icon="@drawable/ic_release_note_24"
+            android:title="@string/release_note" />
+        <item
+            android:id="@+id/logOut"
+            android:title="@string/log_out"
+            android:icon="@drawable/ic_exit"/>
+        </menu>
+        </item>
+
+    </group>
+
+</menu>

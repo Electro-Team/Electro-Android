@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_login_page.xml" value="0.2115" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/login_rounded_button.xml" value="0.2115" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/rounded_edittext.xml" value="0.2115" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/transparence_button.xml" value="0.2115" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_login.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_sign_up.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/xml/perf_server.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/xml/perf_setting.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable-xhdpi/main_rounded_button.xml" value="0.2671875" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/connection_button_shadow.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/dns_icon.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_clear.xml" value="0.2851851851851852" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_connection_button_bg.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_connection_button_shadow.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_connection_cutton_shadow_violet.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_disconnect.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_electro_logo.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_exit.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_finger_print.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_golden_finger_print.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_golden_logo.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_instagram_seeklogo_com.xml" value="0.2671875" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_login_logo.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_login_page.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_midcircle.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_network.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_note_add.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_refresh.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_release_note_24.xml" value="0.3" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_us_electro.xml" value="0.2671875" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_web_icon.xml" value="0.2671875" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/login_rounded_button.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/open_gate_button_bg.xml" value="0.2671875" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/rounded_button.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/rounded_edittext.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/signup_bg.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/drawable/transparence_button.xml" value="0.35625" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.26484375" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout-w936dp/activity_login.xml" value="0.251953125" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_release_note.xml" value="0.15043859649122807" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/content_sign_up.xml" value="0.3359375" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/drawer_header.xml" value="0.25" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/fragment_dns_servers.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/fragment_second.xml" value="0.3359375" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/layout/new_fragment_main.xml" value="0.22" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/menu/drawer_menu.xml" value="0.3359375" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/AmirHossin/AndroidStudioProjects/mElectro/app/src/main/res/xml/perf_setting.xml" value="0.27825711820534943" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="16" project-jdk-type="JavaSDK" />
+</project>
