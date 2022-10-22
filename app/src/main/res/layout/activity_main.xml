@@ -9,16 +9,7 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-<!--    <com.google.android.material.navigation.NavigationView-->
-<!--        android:id="@+id/nav_view"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_gravity="end"-->
-<!--        android:background="@color/main_page_icon_color"-->
-<!--        android:visibility="gone"-->
-<!--        app:headerLayout="@layout/drawer_header"-->
-<!--        app:itemTextColor="@color/pure_white"-->
-<!--        app:menu="@menu/drawer_menu" />-->
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -31,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/mainBgColor"
-        tools:context=".activity.MainActivity">
+        tools:context=".presentation.mainActivity.MainActivity">
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieLightAnimation"
@@ -49,12 +40,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/connectionButtonBg"
+            app:layout_constraintEnd_toEndOf="@id/connectionButtonBg"
+            app:layout_constraintStart_toStartOf="@id/connectionButtonBg"
+            app:layout_constraintTop_toTopOf="@id/connectionButtonBg"
             app:lottie_rawRes="@raw/networkanimationfinal" />
 
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:background="#60141414"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="TextView"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
         <ImageView
             android:id="@+id/violetShadow"
             android:layout_width="260dp"
@@ -70,36 +77,6 @@
             app:layout_constraintTop_toTopOf="@+id/connectionButtonBg"
             app:layout_constraintVertical_bias="0.0" />
 
-        <Button
-            android:id="@+id/goProBTN"
-            android:layout_width="99dp"
-            android:layout_height="39dp"
-            android:background="@drawable/main_rounded_button"
-            android:elevation="10dp"
-            android:text="@string/go_pro_btn"
-            android:textColor="#F5FF09"
-            android:textSize="13sp"
-            android:visibility="gone"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/connectionButtonBg" />
-
-        <Button
-            android:id="@+id/openGateBTN"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:background="@drawable/open_gate_button_bg"
-            android:elevation="10dp"
-            android:text="@string/open_gate_btn"
-            android:textColor="#FFFFFF"
-            android:textSize="13sp"
-            android:visibility="gone"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/connectionButtonBg"
-            tools:ignore="TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/connectionButtonBg"
@@ -107,19 +84,20 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:elevation="20dp"
+            android:focusable="true"
             android:src="@drawable/ic_midcircle"
             android:stateListAnimator="@null"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:focusable="true" />
+            app:layout_constraintVertical_bias="0.336" />
 
         <ImageView
             android:id="@+id/electroLogo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_electro_logo"
+            android:background="@drawable/ic_finger_print"
             android:elevation="25dp"
             app:layout_constraintBottom_toBottomOf="@+id/connectionButtonBg"
             app:layout_constraintEnd_toEndOf="@+id/connectionButtonBg"
@@ -132,7 +110,7 @@
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
 
             android:baselineAligned="false"
             android:gravity="fill"
@@ -211,36 +189,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/protocolTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/protocol"
-            android:textColor="@color/pure_white"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            android:visibility="gone"
-            app:layout_constraintBottom_toTopOf="@+id/openGateBTN"
-            app:layout_constraintEnd_toEndOf="@+id/openGateBTN"
-            app:layout_constraintStart_toStartOf="@+id/openGateBTN"
-            app:layout_constraintTop_toBottomOf="@+id/connectionButtonBg"
-            app:layout_constraintVertical_bias="0.885" />
-
-        <TextView
-            android:id="@+id/pro_business"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/pro_bussiness"
-            android:textColor="@color/pure_white"
-            android:visibility="gone"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            app:layout_constraintEnd_toEndOf="@+id/openGateBTN"
-            app:layout_constraintHorizontal_bias="0.333"
-            app:layout_constraintStart_toStartOf="@+id/openGateBTN"
-            app:layout_constraintTop_toBottomOf="@+id/openGateBTN"
-            app:layout_constraintVertical_bias="0.222" />
-
         <ImageView
             android:id="@+id/connectionShadow"
             android:layout_width="180dp"
@@ -265,6 +213,20 @@
             app:layout_constraintStart_toStartOf="@+id/connectionButtonBg"
             app:layout_constraintTop_toTopOf="@+id/connectionButtonBg"
             app:layout_constraintVertical_bias="0.493" />
+
+        <ImageView
+            android:id="@+id/adBox"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/connectionShadow"
+            app:layout_constraintVertical_bias="0.724" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

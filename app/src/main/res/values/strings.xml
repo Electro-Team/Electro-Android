@@ -131,6 +131,17 @@
     <string name="log_out">Log out</string>
     <string name="appInMenu">App</string>
     <string name="update_request_text">Please downlaod last version of app</string>
-
+    <string name="appply">Apply</string>
+    <string name="errorOccurred">Error occured</string>
+    <string name="download">Download</string>
+    <string name="electro_text">Be Free</string>
+    <string name="dummy_content">Electro</string>
+    <string name="Ipv6AlertDialogTitle">توجه</string>
+    <string name="TrollCancelText">نخوندم</string>
+    <string name="amuzesh">آموزش</string>
+    <string name="zudMiam">زودمیام</string>
+    <string name="chiMikoni">چی میکنی؟</string>
+    <string name="popUpAnouncmentTitle">سخن بزرگان</string>
+    <string name="okButton">خوندم</string>
 
 </resources>

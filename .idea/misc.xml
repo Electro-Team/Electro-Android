@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Electro-Android/app/src/main/res/drawable-xxhdpi/electeo_theme_background_gradiant.xml" value="0.196" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Electro-Android/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Electro-Android/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Electro-Android/app/src/main/res/layout/activity_update.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Electro-Android/app/src/main/res/xml/perf_server.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/ic_login_page.xml" value="0.2115" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/login_rounded_button.xml" value="0.2115" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/mElectro/app/src/main/res/drawable/rounded_edittext.xml" value="0.2115" />

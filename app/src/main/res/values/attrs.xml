@@ -4,4 +4,8 @@
         <attr name="bounded_width" format="dimension"/>
         <attr name="bounded_height" format="dimension"/>
     </declare-styleable>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
 </resources>

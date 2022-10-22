@@ -2,7 +2,7 @@ package com.example.melectro.utill
 
 
 import android.util.Log
-import com.example.melectro.Daedalus
+import com.example.melectro.presentation.App
 import java.io.PrintWriter
 import java.io.StringWriter
 import java.lang.Exception
@@ -55,7 +55,7 @@ object Logger {
     }
 
     private val logSizeLimit: Int
-        private get() = Daedalus.getPrefs()?.getString("settings_log_size", "10000")!!.toInt()
+        private get() = App.getPrefs()?.getString("settings_log_size", "10000")!!.toInt()
 
     private fun checkBufferSize(): Boolean {
         val limit = logSizeLimit

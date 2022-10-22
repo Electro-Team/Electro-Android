@@ -15,33 +15,34 @@
         android:maxSdkVersion="21" />
 <uses-feature android:name="android.hardware.telephony"/>
     <application
-        android:name=".Daedalus"
-        android:allowBackup="true"
-        android:configChanges="locale"
-        android:fullBackupContent="true"
+        android:name=".presentation.App"
         android:icon="@drawable/electro_icon"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true"
-        tools:targetApi="m">
+
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.ReleaseNote"
+            android:name=".presentation.updateScreen.UpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.signUp.SignUpActivity"
-            android:exported="false"
-            android:label="@string/title_activity_sign_up"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity.login.LoginActivity"
+            android:name=".presentation.splash.SplashScreen"
             android:exported="true"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" />
 
+            android:theme="@style/Theme.Electro_Pro.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.mainActivity.MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
         <service
-            android:name=".service.DaedalusVpnService"
+            android:name="com.example.melectro.domain.service.DaedalusVpnService"
             android:exported="true"
             android:permission="android.permission.BIND_VPN_SERVICE">
             <intent-filter>
@@ -49,7 +50,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".service.DaedalusTileService"
+            android:name="com.example.melectro.domain.service.DaedalusTileService"
             android:exported="true"
             android:icon="@drawable/ic_electro_logo"
             android:label="@string/app_name"
@@ -58,9 +59,8 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
-
         <receiver
-            android:name=".receiver.BootBroadcastReceiver"
+            android:name=".domain.receiver.BootBroadcastReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -69,31 +69,14 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".receiver.StatusBarBroadcastReceiver"
+            android:name=".domain.receiver.StatusBarBroadcastReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="org.itxtech.daedalus.receiver.StatusBarBroadcastReceiver.STATUS_BAR_BTN_DEACTIVATE_CLICK_ACTION" />
                 <action android:name="org.itxtech.daedalus.receiver.StatusBarBroadcastReceiver.STATUS_BAR_BTN_SETTINGS_CLICK_ACTION" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name=".activity.MainActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|uiMode|orientation|screenSize|smallestScreenSize"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:launchMode="singleTask"
-            android:theme="@style/AppTheme.NoActionBar.TransparentStatusBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.shortcuts"
-                android:resource="@xml/shortcuts" />
-        </activity>
     </application>
+
 
 </manifest>

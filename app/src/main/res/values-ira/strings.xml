@@ -133,4 +133,16 @@
     <string name="appInMenu">برنامه</string>
 
     <string name="update_request_text">لطفا آخرین نسخه برنامه را دانلود و نصب بفرمایید</string>
+
+    <string name="Ipv6AlertDialogTitle">توجه</string>
+    <string name="TrollCancelText">نخوندم</string>
+    <string name="amuzesh">آموزش</string>
+    <string name="zudMiam">زودمیام</string>
+    <string name="chiMikoni">چی میکنی؟</string>
+
+    <string name="appply">Apply</string>
+    <string name="errorOccurred">Error occured</string>
+    <string name="download">Download</string>
+    <string name="electro_text">Be Free</string>
+    <string name="dummy_content">Electro</string>
 </resources>

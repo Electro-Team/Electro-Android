@@ -67,7 +67,7 @@
             android:title="@string/settings_app_filter_mode"
             android:defaultValue="false"
             android:enabled="false"/>
-        <com.example.melectro.widget.ClickPreference
+        <com.example.melectro.utill.ClickPreference
             android:key="settings_app_filter_list"
             android:title="@string/settings_app_filter_list"
             android:summary="@string/settings_app_filter_list_summary"
@@ -115,18 +115,18 @@
         app:iconSpaceReserved="false"
         android:key="settings_help"
         android:title="@string/settings_help_and_support">
-        <com.example.melectro.widget.ClickPreference
+        <com.example.melectro.utill.ClickPreference
             android:key="settings_privacy_policy"
             android:title="@string/settings_privacy_policy"/>
-        <com.example.melectro.widget.ClickPreference
+        <com.example.melectro.utill.ClickPreference
             android:key="settings_check_update"
             android:title="@string/settings_check_update"
             android:summary="@string/settings_update_summary"/>
-        <com.example.melectro.widget.ClickPreference
+        <com.example.melectro.utill.ClickPreference
             android:key="settings_issue_tracker"
             android:title="@string/settings_bug_report"
             android:summary="@string/settings_issue_summary"/>
-        <com.example.melectro.widget.ClickPreference
+        <com.example.melectro.utill.ClickPreference
             android:key="settings_manual"
             android:title="@string/settings_manual"
             android:summary="@string/settings_manual_summary"/>

@@ -3,10 +3,10 @@
     <shortcut>
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="com.example.melectro.activity.MainActivity"
+            android:targetClass="com.example.melectro.presentation.mainActivity.MainActivity"
             android:targetPackage="com.example.melectro">
             <extra
-                android:name="com.example.melectro.activity.MainActivity.LAUNCH_FRAGMENT"
+                android:name="com.example.melectro.presentation.mainActivity.MainActivity.LAUNCH_FRAGMENT"
                 android:value="2" />
         </intent>
     </shortcut>

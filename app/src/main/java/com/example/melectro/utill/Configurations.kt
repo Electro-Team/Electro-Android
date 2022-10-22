@@ -1,13 +1,10 @@
 package com.example.melectro.utill
 
 
-import com.example.melectro.Daedalus
-import com.example.melectro.server.CustomDnsServer
-import com.google.gson.Gson
+import com.example.melectro.domain.server.CustomDnsServer
+import com.example.melectro.presentation.App
 import java.io.File
 import java.io.FileReader
-import java.io.FileWriter
-import java.io.IOException
 import java.util.*
 
 
@@ -47,7 +44,7 @@ class Configurations {
             if (file.exists()) {
                 try {
                     config =
-                        Daedalus.parseJson(Configurations::class.java, com.google.gson.stream.JsonReader(FileReader(file)))
+                        App.parseJson(Configurations::class.java, com.google.gson.stream.JsonReader(FileReader(file)))
                     Logger.info("Load configuration successfully from $file")
                 } catch (e: Exception) {
                     Logger.logException(e)

@@ -11,4 +11,7 @@
     <color name="main_page_icon_color">#6C7DA9</color>
     <color name="black">#000000</color>
     <color name="red">#F44336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="ElectrocolorPrimary">#9C27B0</color>
 </resources>
